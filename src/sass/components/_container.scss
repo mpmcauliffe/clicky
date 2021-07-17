@@ -1,0 +1,11 @@
+
+.container { 
+    max-width: 78%;
+    margin: 0 auto;
+    
+}
+.container > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

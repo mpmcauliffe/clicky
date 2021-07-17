@@ -1,0 +1,16 @@
+.footer {
+    height: 10rem;
+    width: 100%;
+    position: absolute;
+    margin-top: 15rem;
+    border-top: .3rem solid $orange;
+    background: $blue;
+    color: $off-black;
+}
+
+.footer__note {
+    font-weight: 400;
+    color: $gray;
+    text-align: center;
+    opacity: .5;
+}

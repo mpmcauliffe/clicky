@@ -1,0 +1,11 @@
+
+.card {
+    max-width: 19rem;
+    margin: 1rem;
+    transition: 300ms;
+    flex-grow: 1;
+}
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
