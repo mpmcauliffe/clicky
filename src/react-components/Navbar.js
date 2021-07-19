@@ -6,8 +6,8 @@ const Navbar = (props) => (
         <img 
             alt='retro-logo'
             className='nav__logo'
-            src={require('../images/navLogo.png').default} />
-            
+            src={require('../images/small-logo.png').default} />
+
         <div className='nav__info'>
             <div className='nav__message'>{props.message}</div>
             <div className='nav__score'>score {props.score} | top score {props.topScore}</div>

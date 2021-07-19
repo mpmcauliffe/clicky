@@ -1,10 +1,10 @@
-import React from 'react';
-import Card from './Card';
-import Navebar from './Navbar';
-import Header from './Header';
-import Footer from './Footer';
-//import GameModal from './GameModal';
-import shuffle from "shuffle-array";
+import React from 'react'
+import Card from './Card'
+import Navebar from './Navbar'
+import Header from './Header'
+import Footer from './Footer'
+//import GameModal from './GameModal'
+import shuffle from "shuffle-array"
 
 export default class RetroReact extends React.Component {
     state = {
@@ -56,12 +56,13 @@ export default class RetroReact extends React.Component {
     render() {
         return (
             <div>
+                <Header />
                 <Navebar 
                     message={this.state.message}
                     score={this.state.currentScore} 
                     topScore={this.state.topScore}  
                 />
-                <Header />
+                
                 <div className="container">
                     <Card handleSelection={this.handleSelection} imageCards={this.state.imageCards} />
                 </div>
