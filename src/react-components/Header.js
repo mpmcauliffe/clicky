@@ -6,7 +6,7 @@ const Header = () => (
         <img 
             alt='retro-react'
             className='header__image'
-            src={require('../images/titleBlock.png').default}  />
+            src={require('../images/titleBlock-thin.png').default}  />
     </div>
 );
 
